@@ -71,6 +71,9 @@ CLEANUP-*.md
 validate-repository.cjs
 cleanup-workspace.cjs
 
+# Archive directory contains development files with hardcoded values
+archive/
+
 # Any files with actual workspace IDs (safety net)
 **/workspace-config.json
 **/local-workspace-config.js
