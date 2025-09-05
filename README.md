@@ -58,7 +58,7 @@ Expected result: ✅ Connection verified with 62 available MCP tools
 | Directory | Purpose |
 |-----------|---------|
 | `notebooks/` | Jupyter notebooks for testing |
-| `archive/` | Historical scripts and experiments |
+| `archive/` | Historical scripts and experiments (local-only) |
 
 ## 🔧 What These Examples Do
 
