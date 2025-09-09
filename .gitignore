@@ -59,21 +59,22 @@ local-config.json
 test-results/
 coverage/
 
-# Backup files
+# Development artifacts that shouldn't be public
+*.ps1.backup
 *.backup
 *_backup
 index_*.ts.backup
 
-# Development artifacts that shouldn't be public
-fabric-mcp-env.ps1.backup
-CONFIG-TEMPLATE.md
-CLEANUP-*.md
-validate-repository.cjs
-cleanup-workspace.cjs
-
 # Archive directory contains development files with hardcoded values
 archive/
 
-# Any files with actual workspace IDs (safety net)
+# Local development and configuration files
+local-config.json
 **/workspace-config.json
 **/local-workspace-config.js
+
+# Any files that might contain workspace IDs (safety patterns)
+*workspace-id*
+*-config-local.*
+test-with-real-*.js
+test-with-real-*.cjs
